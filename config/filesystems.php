@@ -53,20 +53,6 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
-        'azure' => [
-            'driver'    => 'azure',
-            'name'      => env('surrealteam_1624993883035'),
-            'key'       => env('gAfqLeX9BRuOuRx6ss2i83VApGSV+3r39FacbE33mP7ihS64tFy/tzMZrwnJqPtoQPX6w+3QpmkwC2uVjk9Ssg=='),
-            'container' => env('surrealteam'),
-            'url'       => env('https://surrealteam.blob.core.windows.net/'),
-            'prefix'    => null,
-            'cache'     => [
-                'store' => 'memcached',
-                'expire' => 600,
-                'prefix' => 'filecache',
-            ]
-        ],
-
     ],
 
     /*
